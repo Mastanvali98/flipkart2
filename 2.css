@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Moon+Dance&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Moon+Dance&family=Roboto+Slab:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(100, 100, 236);
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 21px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-style: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 400px;
+    height: 23px;
+    border: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+.search button {
+    font-weight: 900;
+   
+}
+.button{
+    padding: 5px 10px;
+    color: black;
+    border: 1px black;
+   
+}
+.container{
+  min-height: calc(100vh - 58px - 12vh );
+  
+}
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+}
+.my-1{
+    margin : 26px 0;
+}
+.my-2{
+    margin:  5px;
+}
+.card{
+    max-width: 90vw;
+    margin: auto;
+   display: flex;
+   align-items: center;
+  
+}
+.card-itmes{
+    width: 12vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+    
+footer{
+    height: 12vh;
+    background-color: rgb(92, 92, 240);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
